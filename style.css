@@ -1,6 +1,53 @@
-h1 {
-    font-size: 40px;
+.header-links {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.header-links div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.header-top h2 {
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0 0 20px 0;
+    padding: 0;
 }
 img {
     width: 50%;
+}
+
+.container {
+    display: flex;
+}
+.container div {
+    flex: 1;
+}
+
+.middle {
+    display: flex;
+}
+.middle-left {
+    margin: 40px 0;
+    flex: 1;
+}
+
+.middle-right {
+    flex: 1;
+    margin: 40px 0;
+    position: relative;
+    right: 0;
+}
+.info {
+    margin: 20px auto;
+    padding: 40px;
+}
+.quote p {
+    margin: 20px auto;
+    padding: 140px;
+    border: 5px solid black;
 }
