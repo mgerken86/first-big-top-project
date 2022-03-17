@@ -1,24 +1,39 @@
+header {
+    background-color: #1F2937; 
+    color: white;
+    width: 100%;
+    height: 400px;
+}
+
 .header-links {
     display: flex;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 10;
 }
 .header-links div {
     flex: 1;
-    padding: 0 10px;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin: 0 10px;
 }
-
+.removelink {
+    text-decoration: none;
+    color: white;
+}
 .header-top h2 {
-    font-size: 16px;
+    font-size: 18px;
     position: absolute;
     left: 0;
     top: 0;
-    margin: 0 0 20px 0;
+    margin: 15px 0 20px 15px;
     padding: 0;
 }
 img {
-    width: 50%;
+    height: 75%;
+    float: right;
+    margin: 5px 30px;
+    position: relative;
 }
 
 .container {
@@ -35,12 +50,22 @@ img {
     margin: 40px 0;
     flex: 1;
 }
+h1 {
+    font-size: 66px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 10px;
+    padding: 4px 16px;
+}
 
 .middle-right {
     flex: 1;
-    margin: 40px 0;
+    margin: 30px 0;
     position: relative;
-    right: 0;
+    top: 20px;
 }
 .info {
     margin: 20px auto;
